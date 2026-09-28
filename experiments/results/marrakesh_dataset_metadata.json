@@ -1,0 +1,67 @@
+{
+  "backend": "FakeMarrakesh",
+  "source_rows": 200,
+  "configurations": [
+    {
+      "reps": 1,
+      "entanglement": "linear"
+    },
+    {
+      "reps": 1,
+      "entanglement": "full"
+    },
+    {
+      "reps": 2,
+      "entanglement": "linear"
+    },
+    {
+      "reps": 2,
+      "entanglement": "full"
+    },
+    {
+      "reps": 3,
+      "entanglement": "linear"
+    },
+    {
+      "reps": 3,
+      "entanglement": "full"
+    }
+  ],
+  "layouts": [
+    [
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    [
+      107,
+      108,
+      109,
+      110,
+      111
+    ],
+    [
+      125,
+      126,
+      127,
+      128,
+      129
+    ],
+    [
+      69,
+      70,
+      71,
+      72,
+      73
+    ]
+  ],
+  "total_experiments": 4800,
+  "shots": 1024,
+  "repeats": 5,
+  "seed_transpiler": 42,
+  "source_row_overlap_with_kingston": 0,
+  "independent_dataset": true,
+  "description": "Independent FakeMarrakesh dataset using 200 source rows disjoint from Kingston."
+}

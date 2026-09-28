@@ -1,0 +1,66 @@
+{
+  "backend": "FakeKingston",
+  "n_rows": 200,
+  "n_experiments": 4800,
+  "n_features": 61,
+  "shots": 1024,
+  "repeats": 5,
+  "seed_transpiler": 42,
+  "configs": [
+    [
+      1,
+      "linear"
+    ],
+    [
+      2,
+      "linear"
+    ],
+    [
+      3,
+      "linear"
+    ],
+    [
+      1,
+      "full"
+    ],
+    [
+      2,
+      "full"
+    ],
+    [
+      3,
+      "full"
+    ]
+  ],
+  "layouts": [
+    [
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    [
+      61,
+      62,
+      63,
+      64,
+      65
+    ],
+    [
+      147,
+      148,
+      149,
+      150,
+      151
+    ],
+    [
+      83,
+      84,
+      85,
+      86,
+      87
+    ]
+  ],
+  "target": "mean_tvd"
+}
