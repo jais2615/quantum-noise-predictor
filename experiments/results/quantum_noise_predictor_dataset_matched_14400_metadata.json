@@ -1,0 +1,138 @@
+{
+  "dataset_type": "cross-backend matched-input",
+  "source_rows": 200,
+  "backends": [
+    "FakeKingston",
+    "FakeMarrakesh",
+    "FakeFez"
+  ],
+  "configurations": [
+    {
+      "reps": 1,
+      "entanglement": "linear"
+    },
+    {
+      "reps": 2,
+      "entanglement": "linear"
+    },
+    {
+      "reps": 3,
+      "entanglement": "linear"
+    },
+    {
+      "reps": 1,
+      "entanglement": "full"
+    },
+    {
+      "reps": 2,
+      "entanglement": "full"
+    },
+    {
+      "reps": 3,
+      "entanglement": "full"
+    }
+  ],
+  "layouts": {
+    "FakeKingston": [
+      [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      [
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      [
+        147,
+        148,
+        149,
+        150,
+        151
+      ],
+      [
+        83,
+        84,
+        85,
+        86,
+        87
+      ]
+    ],
+    "FakeMarrakesh": [
+      [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      [
+        107,
+        108,
+        109,
+        110,
+        111
+      ],
+      [
+        125,
+        126,
+        127,
+        128,
+        129
+      ],
+      [
+        69,
+        70,
+        71,
+        72,
+        73
+      ]
+    ],
+    "FakeFez": [
+      [
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      [
+        125,
+        126,
+        127,
+        128,
+        129
+      ],
+      [
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      [
+        69,
+        70,
+        71,
+        72,
+        73
+      ]
+    ]
+  },
+  "experiments_per_backend": 4800,
+  "total_experiments": 14400,
+  "shots": 1024,
+  "repeats": 5,
+  "seed_transpiler": 42,
+  "final_columns": 61,
+  "previous_source_rows_excluded": 600,
+  "new_source_selection_seed": 2026,
+  "backend_column_used_as_model_feature": false,
+  "checkpoint_file": "..\\experiments\\results\\quantum_noise_predictor_dataset_matched_14400_checkpoint.jsonl",
+  "final_file": "..\\experiments\\results\\quantum_noise_predictor_dataset_matched_14400_61.csv"
+}
